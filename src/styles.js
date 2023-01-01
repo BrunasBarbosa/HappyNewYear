@@ -9,7 +9,6 @@ export default createGlobalStyle`
   }
 
   body {
-    width: 100%;
     background-color: #000;
 
     --webkit-font-smoothing: antialiased;
@@ -18,14 +17,19 @@ export default createGlobalStyle`
   }
 
   #root {
+    height: 100vh;
     display: flex;
   }
 `;
 
-export const Container = styled.canvas`
-  height: 100vh;
+export const Container = styled.div`
+  overflow: none;
   position: relative;
   z-index: -1;
+`;
+
+export const Content = styled.canvas`
+  width: 100%;
 `;
 
 export const Text = styled.main`
