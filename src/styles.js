@@ -12,6 +12,7 @@ export default createGlobalStyle`
     background-color: #000;
 
     --webkit-font-smoothing: antialiased;
+    font-family: 'Passions Conflict', cursive;
   }
 
   #root {
@@ -30,15 +31,19 @@ export const Text = styled.main`
   top: 50%;
   margin: 0 auto;
   position: absolute;
-  font-size: 2.4rem;
   width: 100%;
   height: 3.2rem;
-  color: white;
+
+  h1 {
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: white;
+  }
 
   p {
     margin-top: 2.4rem;
-    font-size:1.4rem;
-    color: gray;
+    font-size:2.4rem;
+    color: #4C5254;
   }
 
   .hide {

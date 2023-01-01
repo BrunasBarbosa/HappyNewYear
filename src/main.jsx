@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <GlobalStyles />
     <App />
     <Text>
-      Feliz ano novo!
+      <h1>Feliz ano novo!</h1>
       <p>Clique em qualquer lugar da tela.</p>
     </Text>
   </React.StrictMode>
