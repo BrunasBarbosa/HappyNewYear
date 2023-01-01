@@ -1,6 +1,6 @@
 # Happy New Year
 
-![preview](./.github/happy-new-year-1.gif)
+![preview](./src/.github/happy-new-year-1.gif)
 
 Project developed to wish Happy New Year to my friends and family.
 It shows fireworks when clicking on the screen.
