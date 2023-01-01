@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import { Container, Content, Text } from './styles';
+import { useState, useEffect } from 'react';
 import { HideText } from './scripts';
 import Firework from './scripts';
 
