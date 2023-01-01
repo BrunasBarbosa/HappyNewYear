@@ -12,6 +12,7 @@ export default createGlobalStyle`
     background-color: #000;
 
     --webkit-font-smoothing: antialiased;
+
     font-family: 'Passions Conflict', cursive;
   }
 
@@ -38,15 +39,26 @@ export const Text = styled.main`
     font-weight: 500;
     font-size: 4.8rem;
     color: white;
+    animation: show 800ms 300ms backwards;
   }
 
   p {
     margin-top: 2.4rem;
     font-size:2.4rem;
     color: #4C5254;
+    animation: show 800ms 600ms backwards;
   }
 
   .hide {
     display: none;
+  }
+
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 `;
