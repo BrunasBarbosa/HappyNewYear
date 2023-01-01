@@ -9,6 +9,8 @@ export default createGlobalStyle`
   }
 
   body {
+    height: 100vh;
+    overflow: hidden;
     background-color: #000;
 
     --webkit-font-smoothing: antialiased;
@@ -17,7 +19,6 @@ export default createGlobalStyle`
   }
 
   #root {
-    height: 100vh;
     display: flex;
   }
 `;
